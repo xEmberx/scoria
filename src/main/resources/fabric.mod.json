@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "scoria",
+  "version": "${version}",
+
+  "name": "Scoria",
+  "description": "Adds a Sponge for Lava",
+  "authors": [
+    "heckinember"
+  ],
+  "contact": {
+    "homepage": "https://discord.com/users/687787447945396339",
+    "sources": "https://github.com/xEmberx/scoria"
+  },
+
+  "license": "MIT",
+  "icon": "assets/scoria/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.heckinember.scoria.Scoria"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
